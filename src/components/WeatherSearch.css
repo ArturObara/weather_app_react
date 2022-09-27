@@ -1,0 +1,53 @@
+form {
+    min-width: 35vw;
+    height: 300px;
+    border: 2px solid rgb(0, 197, 252);
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+h1{
+    height: 50px;
+    margin: 20px 50px;
+    font-weight: bold;
+}
+
+.search-box{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 210px;
+}
+
+.input{
+    
+    width: 80%;
+    font-size: 16px;
+    padding: 5px;
+    
+}
+
+.input:focus{
+    background-color: rgb(190, 190, 190);
+}
+.city{
+    margin-top: 15px;
+}
+
+
+
+.search-button{
+    margin-top: 35px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.error{
+    position: absolute;
+    margin-top: 25px;
+    color: red;
+    font-weight: bold;
+}
